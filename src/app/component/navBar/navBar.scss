@@ -1,0 +1,31 @@
+.nav {
+    height: 45px;
+
+    border-bottom: 1px solid #e1e1e1;
+
+    background-color: #fff;
+
+    .nav-list {
+        width: 1040px;
+
+        margin: 0 auto;
+
+        .nav-logo {
+            margin-left: 10px;
+
+            line-height: 40px;
+
+            float: left;
+        }
+
+        .nav-profile {
+            width: 33px;
+            height: 33px;
+
+            border: 1px solid #c8c8c8;
+            border-radius: 5px;
+
+            float: right;
+        }
+    }
+}

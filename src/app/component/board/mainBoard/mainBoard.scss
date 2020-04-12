@@ -1,0 +1,12 @@
+@import "./podList/podList.scss";
+@import "./topicList/topicList.scss";
+
+.container-left {
+    left: 0px;
+    position: absolute;
+}
+
+.container-center {
+    left: 240px;
+    position: absolute;
+}

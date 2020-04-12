@@ -1,0 +1,11 @@
+get : 얻을때
+
+create / remove : 만들거나 지울때
+
+goTo : 이동할때
+
+open / close : 열거나 닫을때
+
+~YN : 플래그 속성을 가질때
+
+태그 속성 순서 : html 태그가 우선, angular문법은 그뒤

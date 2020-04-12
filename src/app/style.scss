@@ -1,0 +1,30 @@
+@import "./component/navBar/navBar.scss";
+@import "./component/board/loginBoard/loginBoard.scss";
+@import "./component/board/mainBoard/mainBoard.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+
+    font-family: "montserrat", sans-serif;
+    list-style: none;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: #f8f8f8;
+
+    overflow: hidden;
+
+    .container {
+        width: 1040px;
+        height: 100%;
+
+        margin: 0 auto;
+
+        position: relative;
+    }
+}
