@@ -1,0 +1,91 @@
+<div class="topic-list-item">
+    <div class="topic-header-top">
+        <div class="topic-status">
+            <p>
+                {{$ctrl.topic.topicStatus}}
+            </p>
+        </div>
+    </div>
+
+    <div class="topic-header-bottom">
+        <div class="topic-tag-member">
+            <p class="topic-tag-member-name">
+                {{$ctrl.topic.topicTagMember}}
+            </p>
+        </div>
+
+        <div class="topic-profile">
+            <div class="topic-profile-photo">
+                <i class="fas fa-male"></i>
+            </div>
+
+            <div class="topic-profile-name">
+                <p>
+                    {{$ctrl.topic.topicCreater}}
+                </p>
+            </div>
+        </div>
+
+        <div class="topic-info">
+            <div class="topic-info-number">
+                <p>
+                    {{$ctrl.topic.topicId}}
+                </p>
+            </div>
+
+            <div class="topic-info-date">
+                <p>
+                    {{$ctrl.topic.topicDate}}
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="topic-contents">
+        <p>
+            {{$ctrl.topic.topicContents}}
+        </p>
+    </div>
+
+    <div class="topic-footer">
+        <div class="topic-footer-left">
+            <i class="fas fa-bell"></i>
+            <i class="far fa-bell"></i>
+        </div>
+
+        <div class="topic-footer-right">
+
+        </div>
+    </div>
+
+    <div class="topic-horizon"></div>
+
+    <div class="topic-last-comment">
+        <div class="topic-last-comment-header">
+            <div class="topic-last-comment-profile">
+                <div class="topic-last-comment-profile-photo">
+                    <i class="fas fa-male"></i>
+                </div>
+
+                <div class="topic-last-comment-profile-name">
+                    <p>
+                        {{$ctrl.topic.topicLastComment.commentCreater}}
+                    </p>
+                </div>
+            </div>
+
+            
+            <div class="topic-last-comment-date">
+                <p>
+                    {{$ctrl.topic.topicLastComment.commentDate}}
+                </p>
+            </div>
+        </div>
+
+        <div class="topic-last-comment-contents">
+            <p>
+                {{$ctrl.topic.topicLastComment.commentContents}}
+            </p>
+        </div>
+    </div>
+</div>

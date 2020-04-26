@@ -5,7 +5,7 @@ class MainBoardController {
 }
 
 export default {
-    url: '/',
+    url: '/main',
     controller: MainBoardController,
     controllerAs: '$ctrl',
     template: require('./mainBoard.html')

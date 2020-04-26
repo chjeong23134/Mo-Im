@@ -1,7 +1,6 @@
-class TopicListController {
+class TopicDetailController {
     constructor() {
-        this.topicListName = "pod1 토픽들";
-        this.topicList = [
+        this.topic = 
             {
                 topicId: "#777777",
                 topicDate: "2020-04-12",
@@ -27,13 +26,12 @@ class TopicListController {
                     commentContents: "네 안녕하세요"
                 }
             }
-        ]
     }
 }
 
 export default {
-    url: "/main/list",
-    controller: TopicListController,
-    template: require('./topicList.html'),
+    url: "/main/detail",
+    controller: TopicDetailController,
+    template: require('./topicDetail.html'),
     controllerAs: '$ctrl'
 }
