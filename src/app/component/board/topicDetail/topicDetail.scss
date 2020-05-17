@@ -1,6 +1,8 @@
 .topic-list-item {
     width: 500px;
     height: 500px;
+    
+    display: inline-block;
 
     border: 1px solid #e1e1e1;
     border-radius: 3px;
@@ -72,16 +74,9 @@
 
     .topic-contents {
         width: 460px;
-        height: 230px;
+        min-height: 230px;
 
         margin: 0 auto 0 auto;
-
-        overflow: hidden;
-        text-overflow: ellipsis;
-        display: -webkit-box;
-        -webkit-line-clamp: 11; /* 라인수 */
-        -webkit-box-orient: vertical;
-        word-wrap:break-word;
     }
 
     .topic-footer {
@@ -103,19 +98,23 @@
         border: 1px solid #e1e1e1;
     }
 
-    .topic-last-comment {
+    .topic-comment {
         width: 460px;
         height: 100px;
 
+        display: inline;
+
         margin: 15px auto 5px auto;
 
-        .topic-last-comment-header{
+        .topic-comment-header{
             width: 460px;
             height: 40px;
-            
-            .topic-last-comment-profile {
 
-                .topic-last-comment-profile-photo {
+            margin: auto;
+            
+            .topic-comment-profile {
+
+                .topic-comment-profile-photo {
                     width: 33px;
                     height: 33px;
 
@@ -125,7 +124,7 @@
                     float: left;
                 }
 
-                .topic-last-comment-profile-name {
+                .topic-comment-profile-name {
                     margin: 0 0 0 5px;
 
                     font-size: medium;
@@ -134,14 +133,14 @@
                 }
             }
 
-            .topic-last-comment-date {
+            .topic-comment-date {
                 font-size: small;
 
                 float: right;
             }
         }
 
-        .topic-last-comment-contents {
+        .topic-comment-contents {
             width: 460px;
             height: 22px;
 

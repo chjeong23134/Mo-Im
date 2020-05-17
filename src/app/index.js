@@ -1,5 +1,4 @@
 import angular from "angular";
-import ngRouter from "angular-route";
 import uiRoute from "@uirouter/angularjs";
 
 import navBar from "./component/navBar/navBar";
@@ -11,13 +10,12 @@ import topicDetail from "./component/board/topicDetail/topicDetail";
 
 angular.module("ngApp",[uiRoute])
     .config(($stateProvider, $urlRouterProvider) => {
-        $urlRouterProvider.otherwise('/');
-
-        $stateProvider.state('main', mainBoard);
+        $urlRouterProvider.otherwise('/list');
 
         $stateProvider.state('list', topicList);
         $stateProvider.state('detail', topicDetail);
     })
     .component("cNavBar", navBar)
-    .component("cPodList", podList);
+    .component("cMainBoard", mainBoard)
+        .component("cPodList", podList);
 

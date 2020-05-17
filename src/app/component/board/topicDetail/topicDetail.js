@@ -30,7 +30,7 @@ class TopicDetailController {
 }
 
 export default {
-    url: "/main/detail",
+    url: "/detail",
     controller: TopicDetailController,
     template: require('./topicDetail.html'),
     controllerAs: '$ctrl'

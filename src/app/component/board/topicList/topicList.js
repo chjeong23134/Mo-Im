@@ -32,7 +32,7 @@ class TopicListController {
 }
 
 export default {
-    url: "/main/list",
+    url: "/list",
     controller: TopicListController,
     template: require('./topicList.html'),
     controllerAs: '$ctrl'
